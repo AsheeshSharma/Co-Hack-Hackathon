@@ -35,7 +35,7 @@ public class Login extends Activity {
                 {
                     Toast.makeText(Login.this, "Please enter the required details", Toast.LENGTH_SHORT);
                 }
-                final ProgressDialog progressDialog=ProgressDialog.show(Login.this, null, "Loading Server");
+                final ProgressDialog progressDialog=ProgressDialog.show(Login.this, null, "Signing In..");
                 ParseUser.logInInBackground(uname, pwd, new LogInCallback() {
                             @Override
                             public void done(ParseUser parseUser, ParseException e) {
