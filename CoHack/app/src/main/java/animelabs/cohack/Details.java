@@ -43,7 +43,7 @@ public class Details extends Activity {
             else if(id==1)
             {
                 i1.setImageResource(R.mipmap.lkk);
-                t1.setText("Chaturanga is one of the most common postures in Vinyasa yoga—but also one of the most abused. Students tend to rush this pose, cheating its alignment, which with repetition can lead to injury." +
+                t1.setText("Chaturanga is one of the most common postures in Vinyasa yogaâ€”but also one of the most abused. Students tend to rush this pose, cheating its alignment, which with repetition can lead to injury." +
                         " Check out my pointers below to revisit this foundational posture and begin treating it as its own pose instead of a transition.");
                 t3.setText("Chaturanga Dandasana");
                 choice=t3.getText().toString();
@@ -76,7 +76,7 @@ public class Details extends Activity {
                         public void done(ParseException e) {
                             if (e == null)
                             {
-                                Snackbar.make(getWindow().getDecorView().getRootView(), "Succesfully Saved", Snackbar.LENGTH_SHORT).show();
+                                Snackbar.make(getWindow().getDecorView().getRootView(), "Preference Succesfully Saved", Snackbar.LENGTH_SHORT).show();
                             }
                             else
                             {
